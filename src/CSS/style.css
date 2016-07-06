@@ -16,7 +16,7 @@ body {
   width:1030px;
 }
 .buttonShape {
-  border: 1px solid;
+  border: 3px solid green;
   border-radius: 360px;
   height:100px;
   width:100px;
@@ -45,4 +45,11 @@ section {
   height:33vh;
   font-size: 25px;
   padding-top: 10px;
+}
+.inactive {
+  border: 3px solid white;
+  border-radius: 360px;
+  height:100px;
+  width:100px;
+  color: white;
 }
