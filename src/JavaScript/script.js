@@ -1,3 +1,4 @@
+/* global $ */
 var counter = 0
 var modifier = 1
 function pointCounter() {
