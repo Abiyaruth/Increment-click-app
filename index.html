@@ -2,16 +2,18 @@
 <html>
 <head>
    <title> Click Game </title>
-   <link rel="stylesheet" type="text/css" href="style.css">
+   <link rel="stylesheet" type="text/css" href="src/CSS/style.css">
+   <script src="https://code.jquery.com/jquery-3.0.0.js" integrity="sha256-jrPLZ+8vDxt2FnE1zvZXCkCcebI/C8Dt5xyaQBjxQIo=" crossorigin="anonymous"></script>
+   <script src="src/JavaScript/script.js"></script>
 </head>
 <body>
   <header>
-  <h1>Points</h1>
+  <h1>Points :</h1>
 </header>
 <section id="increment">
   <button class=buttonShape> Add <br> increment <br> </button>
 </section>
-<section id="click"> <button class=buttonShape> +1<br> per <br>click </button>
+<section id="click"> <button onclick=pointCounter() class=buttonShape> +1<br> per <br>click </button>
 </section>
 <section id="autoclick">
   <button class=buttonShape> AutoClick </button>
