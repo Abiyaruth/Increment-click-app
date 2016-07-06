@@ -4,7 +4,7 @@ function pointCounter() {
   counter = counter + modifier
 $('h1').html('Points:' + counter.toFixed(2))
 switch(parseFloat(counter.toFixed(2))){
-  case 10.00 : $("#counter").removeAttr("onclick");
+  case 50.00 : $("#counter").removeAttr("onclick");
                $("#counter").removeClass("buttonShape")
                 $("#counter").addClass("inactive")
               $("#modify").attr({"onclick":"mod(0.1)",
@@ -12,7 +12,15 @@ switch(parseFloat(counter.toFixed(2))){
               $("#auto").attr({"onclick":"auto()",
                                   "class":"buttonShape"})
               break;
-  case 25.00 :$("#counter").removeAttr("onclick");
+  // case 25.00 :$("#counter").removeAttr("onclick");
+  //              $("#counter").removeClass("buttonShape")
+  //               $("#counter").addClass("inactive")
+  //             $("#modify").attr({"onclick":"mod(0.05)",
+  //                                 "class":"buttonShape"})
+  //             $("#auto").attr({"onclick":"auto()",
+  //                                 "class":"buttonShape"})
+  //             break;
+  case 100.00 :$("#counter").removeAttr("onclick");
                $("#counter").removeClass("buttonShape")
                 $("#counter").addClass("inactive")
               $("#modify").attr({"onclick":"mod(0.05)",
@@ -20,15 +28,15 @@ switch(parseFloat(counter.toFixed(2))){
               $("#auto").attr({"onclick":"auto()",
                                   "class":"buttonShape"})
               break;
-  case 50.00 :$("#counter").removeAttr("onclick");
-               $("#counter").removeClass("buttonShape")
-                $("#counter").addClass("inactive")
-              $("#modify").attr({"onclick":"mod(0.01)",
-                                  "class":"buttonShape"})
-              $("#auto").attr({"onclick":"auto()",
-                                  "class":"buttonShape"})
-              break;
-  case 100.00 : $("#success").text('Congrats !!!!! You have reached the maximum clicks !!!');
+  case 250.00 :$("#counter").removeAttr("onclick");
+                           $("#counter").removeClass("buttonShape")
+                            $("#counter").addClass("inactive")
+                          $("#modify").attr({"onclick":"mod(0.01)",
+                                              "class":"buttonShape"})
+                          $("#auto").attr({"onclick":"auto()",
+                                              "class":"buttonShape"})
+                          break;
+  case 500.00 : $("#success").text('Congrats !!!!! You have reached the maximum clicks !!!');
                 $("#counter").removeAttr("onclick");
                $("#counter").removeClass("buttonShape")
                $("#counter").addClass("inactive")
