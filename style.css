@@ -1,0 +1,37 @@
+h1 {
+  text-align: center;
+}
+header {
+  background-color:lightblue;
+}
+body {
+  margin:0;
+  padding:0;
+  /*width:900px;
+  margin: auto;*/
+}
+.buttonShape {
+  border: 1px solid;
+  border-radius: 360px;
+  height:100px;
+  width:100px;
+}
+section {
+  width:300px;
+  float: left;
+}
+#increment {
+  background-color:cyan;
+  text-align: center;
+  height:100%;
+}
+#click {
+  background-color: lightgreen;
+  text-align: center;
+  height:100%
+}
+#autoclick {
+  background-color:skyblue;
+  text-align: center;
+  height:100%;
+}
